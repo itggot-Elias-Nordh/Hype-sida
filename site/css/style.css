@@ -1,0 +1,44 @@
+body {
+
+}
+
+.container {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  height: 1000px;
+  width: 700px;
+  align-items: center;
+}
+
+.headier {
+
+}
+
+.top-head {
+
+}
+
+.bottom-head {
+
+}
+
+.news {
+
+}
+
+.bild1 {
+
+}
+
+.bild2 {
+
+}
+
+.bild3 {
+
+}
+
+.bild4 {
+
+}
