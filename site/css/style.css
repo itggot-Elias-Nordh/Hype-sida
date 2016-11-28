@@ -20,9 +20,20 @@ justify-content: center;
 
 .headier {
   display: flex;
-  flex-grow: 20;
+  flex-grow: 19;
   flex-direction: row;
   background-image: url(http://i.imgur.com/zL4TTqq.png);
+  border-bottom: black solid;
+  border-width: 1px;
+}
+
+.headier2 {
+  display: flex;
+  flex-grow: 35;
+  flex-direction: row;
+  background-image: url(http://i.imgur.com/zL4TTqq.png);
+  border-bottom: black solid;
+  border-width: 1px;
 }
 
 .rubrik {
@@ -45,19 +56,43 @@ justify-content: center;
   flex-grow: 0.7;
 }
 
-.news {
-  display: flex;
-  flex-direction: column;
-  background-color: pink;
-  flex-grow: 3;
-
-}
-
 .menu {
   display: flex;
   flex-direction: row;
   background-color: lightcyan;
   flex-grow: 0;
+}
+
+.menu2 {
+  display: flex;
+  flex-direction: row;
+  background-color: grey;
+  flex-grow: 4.85;
+  border: solid black;
+  border-radius: 2px;
+  border-top-width: 2.5px;
+  border-left-width: 2.5px;
+}
+
+.temp3 {
+  flex-grow: 1;
+  margin-top: 108px;
+  margin-left: 0px;
+}
+
+.group {
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  flex-grow: 0.2;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+  background-color: lightcyan;
+  flex-grow: 31;
+  align-items: center;
 }
 
 #hamburger {
@@ -131,13 +166,24 @@ justify-content: center;
   height: 350px;
 }
 
+.bild4 {
+  flex-grow: 1;
+  margin: 10px;
+  border: black solid;
+  border-radius: 15px;
+  border-width: 4px;
+  height: 300px;
+  width: 662px;
+  margin-left: 70px;
+  margin-bottom: 110px;
+}
+
 .bild3 {
   flex-grow: 1;
   margin: 10px;
   border: black solid;
   border-radius: 15px;
   border-width: 4px;
-  align-items: stretch;
   margin-left: 20px;
   height: 400px;
   width: 700px;
