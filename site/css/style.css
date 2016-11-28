@@ -20,7 +20,7 @@ justify-content: center;
 
 .headier {
   display: flex;
-  flex-grow: 19;
+  flex-grow: 27;
   flex-direction: row;
   background-image: url(http://i.imgur.com/zL4TTqq.png);
   border-bottom: black solid;
@@ -29,7 +29,7 @@ justify-content: center;
 
 .headier2 {
   display: flex;
-  flex-grow: 35;
+  flex-grow: 17.5;
   flex-direction: row;
   background-image: url(http://i.imgur.com/zL4TTqq.png);
   border-bottom: black solid;
@@ -76,15 +76,15 @@ justify-content: center;
 
 .temp3 {
   flex-grow: 1;
-  margin-top: 108px;
-  margin-left: 0px;
+  margin-top: 110px;
+  margin-left: 10px;
 }
 
 .group {
   display: flex;
   flex-direction: row;
   width: 900px;
-  flex-grow: 0.2;
+  flex-grow: 0.08;
 }
 
 .news {
@@ -172,10 +172,10 @@ justify-content: center;
   border: black solid;
   border-radius: 15px;
   border-width: 4px;
-  height: 300px;
+  height: 200px;
   width: 662px;
   margin-left: 70px;
-  margin-bottom: 110px;
+  margin-bottom: 85px;
 }
 
 .bild3 {
@@ -186,10 +186,11 @@ justify-content: center;
   border-width: 4px;
   margin-left: 20px;
   height: 400px;
-  width: 700px;
+  width: 662px;
+  margin-bottom: 28px;
 }
 
 .temp {
-  flex-grow: 0.5;
+  flex-grow: 2;
   background-color: lightcyan;
 }
