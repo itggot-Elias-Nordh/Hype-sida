@@ -20,7 +20,7 @@ justify-content: center;
 
 .headier {
   display: flex;
-  flex-grow: 5;
+  flex-grow: 6;
   flex-direction: row;
   background-image: url(http://i.imgur.com/zL4TTqq.png);
 }
@@ -108,9 +108,8 @@ justify-content: center;
   border-width: 4px;
   align-items: stretch;
   margin-left: 20px;
-  max-height: 400px;
-  min-height: 300px;
-  max-width: 300px;
+  height: 350px;
+  width: 300px;
 }
 
 .bild2 {
@@ -120,9 +119,8 @@ justify-content: center;
   border-radius: 15px;
   border-width: 4px;
   align-items: stretch;
-  max-width: 350px;
-  min-height: 300px;
-  max-height: 400px;
+  width: 325px;
+  height: 350px;
 }
 
 .bild3 {
