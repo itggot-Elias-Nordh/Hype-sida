@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <meta charset="utf-8">
     <title>No Man's Sky</title>
+    <script src="./js/jquery-3.1.1.slim.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -22,8 +23,20 @@
         <div class="tom">
         </div>
       </div>
-      <div class="menu">
-        <a href="./index1.html"><img id="hamburger" src="./img/menu.png" alt="menu"></a>
+      <div class="hamburgermenu">
+        <nav class="menu">
+          <ul class="clearfix">
+            <li>
+              <a href="#"><img id="hamburger" src="./img/menu.png" alt="menu"></a>
+              <ul class="sub-menu">
+                <li><a href="#">Preorder now</a></li>
+                <li><a href="#">Beta is live</a></li>
+                <li><a href="#">Countdown</a></li>
+                <li><a href="#">Register</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
       </div>
       <div class="container2">
         <div class="bilder">
@@ -41,5 +54,10 @@
         </div>
       </div>
     </div>
+    <script>
+    jQuery('li').click(function(){
+ jQuery(this).toggleClass('active');
+});
+    </script>
   </body>
 </html>
