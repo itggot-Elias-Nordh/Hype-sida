@@ -5,6 +5,7 @@ html {
 body {
 display: flex;
 justify-content: center;
+font-family: sans-serif;
 }
 
 a, a:link, a:visited {
@@ -249,7 +250,7 @@ a, a:link, a:visited {
 
 .sub-menu {
     width: 100%;
-    padding:5px 0px;
+    padding: 0px;
     position:absolute;
     top:100%;
     left:0px;
@@ -277,6 +278,7 @@ a, a:link, a:visited {
 
 ul {
   margin: 0px;
+  padding: 0px;
 }
 
 a {
