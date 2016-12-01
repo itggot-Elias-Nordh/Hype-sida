@@ -15,6 +15,11 @@ a, a:link, a:visited {
   text-decoration: none;
 }
 
+h1 {
+  font-size: 100px;
+  margin-top: 400px;
+}
+
 .container {
   border: black solid;
   border-width: 1px;
