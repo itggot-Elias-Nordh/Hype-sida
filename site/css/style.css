@@ -63,9 +63,25 @@ a, a:link, a:visited {
 }
 
 .login {
-  align-items: center;
-  justify-content: center;
-  flex-grow: 1;
+  flex-grow: 0.1;
+}
+
+.register {
+  flex-grow: 1.5;
+}
+
+.registertext {
+  font-size: 35px;
+  width: 140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logintext {
+  font-size: 35px;
+  width: 94px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .group {
@@ -102,6 +118,7 @@ a, a:link, a:visited {
   flex-direction: column;
   background-color: lightcyan;
   flex-grow: 6;
+  align-items: center;
 }
 
 .bilder {
@@ -266,4 +283,49 @@ ul {
 
 a {
   font-size: 20px;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.search-form input {
+    width: 250px;
+    height: 40px;
+    padding: 0px 8px;
+    margin-top: 20px;
+    border-radius: 2px 0px 0px 2px;
+    font-size: 17px;
+}
+
+.forgot {
+  font-size: 12px;
+  margin: 10px;
+  margin-left: 170px;
+  color: blue;
+  width: auto;
+}
+
+.btn-action {
+    background: #5c69ff;
+    border: none;
+}
+
+.btn {
+    background: #5c69ff;
+    border: none;
+    padding: 15px 30px;
+    color: #F2F2F2;
+    text-decoration: none;
+    outline: 0;
+    user-select: none;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 2px;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin: 10px;
+    margin-left: 90px;
 }

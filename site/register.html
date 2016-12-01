@@ -41,17 +41,31 @@
       </div>
       <div class="container2">
         <div class="login">
-          <h2>Login</h2>
+          <h2 class="logintext">Login</h2>
+          <form class="search-form">
+            <input type="text" maxlength="20" placeholder="Username">
+            <a href="#" class="forgot">Forgot Username?</a>
+            <input type="password" class="hidden" maxlength="20" placeholder="Password">
+            <a href="#" class="forgot">Forgot password?</a>
+          </form>
+          <a href="./register.html"><button class="btn" name="submit" type="submit">Sign In</button></a>
         </div>
-        <div class="login">
-          <h2>Register</h2>
+        <div class="register">
+          <h2 class="registertext">Register</h2>
         </div>
       </div>
     </div>
     <script>
-    jQuery('li').click(function(){
- jQuery(this).toggleClass('active');
-});
+      jQuery('li').click(function(){
+        jQuery(this).toggleClass('active');
+      });
+    </script>
+    <script>
+      $(document).ready(function() {
+        $('input.deletable').wrap('<span class="deleteicon" />').after($('<span/>').click(function() {
+          $(this).prev('input').val('').focus();
+        }));
+      });
     </script>
   </body>
 </html>
