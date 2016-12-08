@@ -73,6 +73,7 @@ h1 {
 
 .register {
   flex-grow: 1.5;
+  margin-top: 60px;
 }
 
 .registertext {
@@ -305,7 +306,30 @@ a {
     font-size: 17px;
 }
 
+.search-form2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.search-form2 input {
+    width: 250px;
+    height: 40px;
+    padding: 0px 8px;
+    margin-top: 30px;
+    border-radius: 2px 0px 0px 2px;
+    font-size: 17px;
+}
+
 .forgot {
+  font-size: 12px;
+  margin: 10px;
+  margin-left: 166px;
+  color: blue;
+  width: auto;
+}
+
+.forgot2 {
   font-size: 12px;
   margin: 10px;
   margin-left: 170px;
@@ -333,4 +357,22 @@ a {
     font-family: sans-serif;
     margin: 10px;
     margin-left: 90px;
+}
+
+.btn2 {
+    background: #5c69ff;
+    border: none;
+    padding: 15px 30px;
+    color: #F2F2F2;
+    text-decoration: none;
+    outline: 0;
+    user-select: none;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 2px;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin: 10px;
+    margin-left: 90px;
+    margin-top: 40px;
 }
