@@ -21,8 +21,15 @@ h1 {
 }
 
 .wrap {
+  display: flex;
   border: solid black;
   border-radius: 10px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.wrapbilder {
+  
 }
 
 .container {
