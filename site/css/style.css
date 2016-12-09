@@ -127,6 +127,33 @@ h1 {
   align-items: center;
 }
 
+p {
+  margin: 100px;
+  margin-top: 25px;
+  border: solid black;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.preorder {
+  padding: 10px;
+  border-radius: 5px;
+  background: #A6324A;
+  color: black;
+  border: black solid;
+  border-width: 2px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+.preorder:hover {
+  background: #7D1C2A;
+}
+
 .bilder {
   display: flex;
   flex-direction: column;
