@@ -26,10 +26,15 @@ h1 {
   border-radius: 10px;
   margin-top: 40px;
   flex-wrap: wrap;
+  width: auto;
+  width: 800px;
+  justify-content: center;
+  margin-top: 50px;
 }
 
 .wrapbilder {
-  
+  width: 400px;
+  height: 200px;
 }
 
 .container {
