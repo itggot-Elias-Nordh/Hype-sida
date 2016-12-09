@@ -127,19 +127,27 @@ h1 {
   align-items: center;
 }
 
-p {
+.du {
   margin: 100px;
-  margin-top: 25px;
+  margin-top: 30px;
   border: solid black;
-  padding: 20px;
   border-radius: 10px;
   font-size: 20px;
+}
+
+p {
+  margin: 10px;
+}
+
+.trap {
+  width: 100vw;
+  height: 50vw;
 }
 
 .preorder {
   padding: 10px;
   border-radius: 5px;
-  background: #A6324A;
+  background: #54CDD6;
   color: black;
   border: black solid;
   border-width: 2px;
@@ -148,10 +156,20 @@ p {
   -moz-transition:.5s;
   -webkit-transition:.5s;
   transition:.5s;
+  margin: 10px;
 }
 
 .preorder:hover {
-  background: #7D1C2A;
+  background: #12B0BD;
+}
+
+.america {
+  display: flex;
+  width: 700px;
+  height: 400px;
+  margin: 0px;
+  margin-bottom: 10px;
+  border-bottom: black solid;
 }
 
 .bilder {
@@ -232,6 +250,13 @@ p {
 h2 {
   font-size: 35px;
   margin: 0px;
+}
+
+h3 {
+  font-size: 40px;
+  margin: 0px;
+  margin-top: 10px;
+  margin-left: 5px;
 }
 
 .clearfix:after {
