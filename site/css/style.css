@@ -139,7 +139,7 @@ p {
 .preorder {
   padding: 10px;
   border-radius: 5px;
-  background: #0079E8;
+  background: #A6324A;
   color: black;
   border: black solid;
   border-width: 2px;
@@ -151,7 +151,7 @@ p {
 }
 
 .preorder:hover {
-  background: blue;
+  background: #7D1C2A;
 }
 
 .bilder {
